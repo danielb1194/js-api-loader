@@ -79,6 +79,12 @@ loader.loadCallback(e => {
 
 ```
 
+After the loader is done, you can access the google object via the window.
+``` javascript
+// Accessing the google object
+const myGoogleObject = window.google
+```
+
 View the package in action [here](https://googlemaps.github.io/js-api-loader/examples/index.html).
 
 
